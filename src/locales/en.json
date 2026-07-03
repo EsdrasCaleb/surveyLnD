@@ -1,0 +1,123 @@
+{
+  "studyname": "Evaluation of the Impact of a Language Model-Based Tool for Automated Test Generation in Unity Projects",
+  "consent": {
+    "title": "Informed Consent Form",
+    "helper": "If any term is unclear, try reading in another language.",
+    "paragraphs": [
+      "You are invited to participate in the academic research study <strong>“Evaluation of the Impact of a Language Model-Based Tool for Automated Test Generation in Unity Projects”</strong>, conducted by Esdras Caleb Oliveira Silva (lead researcher), Lyrene Fernandes da Silva (supervisor), and Roberta de Souza Coelho (co-supervisor), from the Federal University of Rio Grande do Norte (UFRN).",
+      "This study is intended for game developers, software engineers, students, and indie developers aged 18 or older who use the Unity Engine. The objective is to evaluate how the <strong>\"Laundry & Dishes\"</strong> tool affects automated test adoption and developer experience.",
+      "If you agree to participate, you will answer a web questionnaire with 22 questions about your professional profile, testing practices, and experience using the tool. The estimated time to complete is approximately 10 minutes.",
+      "<strong>Risks and Confidentiality:</strong><br />The risks are minimal and mainly related to fatigue when answering the questionnaire. All responses are collected anonymously. No source code, project names, or LLM prompts are collected.",
+      "<strong>Right to Withdraw:</strong><br />In accordance with LGPD and GDPR, participation is voluntary and you may withdraw at any time without any penalty. You may also request deletion of your responses by contacting the research team.",
+      "In case of doubts, please contact:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Email: <a href=\"mailto:acheicaleb@gmail.com\">acheicaleb@gmail.com</a><br />Phone: +55 (84) 99688-8803",
+      "Ethical oversight is provided by the Research Ethics Committee of the Federal University of Rio Grande do Norte (CEP Central/UFRN):<br />Email: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
+      "You may also contact the National Research Ethics Commission (CONEP/Brazil):<br />Phone: +55 (61) 3315-5877<br />Email: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
+    ],
+    "agree": "I agree and wish to participate in the research",
+    "decline": "I Decline"
+  },
+  "switcher": {
+    "share_browser_language": "Share browser language",
+    "share_survey_language": "Share the language the survey was answered in"
+  },
+  "thankyou": {
+    "title": "Thank you for your time",
+    "text": "The survey has ended. We appreciate your attention.",
+    "removal": "If you wish to remove your data, please contact acheicaleb@gmail.com and send your unique ID: {{uid}}.",
+    "newSurvey": "Take the survey",
+    "change": "Change Answers"
+  },
+  "survey": {
+    "common": {
+      "sim": "Yes",
+      "nao": "No",
+      "required_option": "Please select an option.",
+      "required_one_option": "Please select at least one option.",
+      "required_describe": "Please specify.",
+      "outra": "Other",
+      "outro": "Other",
+      "outra_describe": "Which one?",
+      "outro_describe": "Which one?",
+      "likert": {
+        "1": "Strongly disagree",
+        "2": "Disagree",
+        "3": "Neither agree nor disagree",
+        "4": "Agree",
+        "5": "Strongly agree"
+      }
+    },
+    "final_remarks": "Final Remarks",
+    "any_comment": "Would you like to leave any additional comments?",
+    "email": "If you are interested in participating in future research related to this project, please provide your email address:",
+    "email_contato": "Leave your email if you are willing to be contacted for an interview about testing in game development.",
+    "required_fields_missing": "Please answer the following questions:",
+    "unity_experience": "Years of experience in Unity",
+    "install_id": "Installation ID (Unity: Edit → Project Settings → Laundry & Dishes → Installation ID)",
+    "profile": "Profile",
+    "project_used": "Types of projects where the tool was used",
+    "project_types": {
+      "academic": "Academic Project",
+      "hobby": "Hobby Project",
+      "open-source": "Open-source Project",
+      "commercial-small": "Small Commercial Project",
+      "commercial-medium": "Medium-sized Commercial Project",
+      "commercial-large": "Large Commercial Project"
+    },
+    "automated_testing_experience": "Before this study, what was your experience with automated testing?",
+    "automated_testing_experience_options": {
+      "never": "Never used it",
+      "rarely": "Rarely used it",
+      "sometimes": "Sometimes used it",
+      "frequently": "Frequently used it",
+      "always": "Always used it"
+    },
+    "cloud_models": "Which cloud AI models did you use together with the tool?",
+    "cloud_model_options": {
+      "openai": "OpenAI",
+      "gemini": "Gemini",
+      "claude": "Claude",
+      "github-copilot": "GitHub Copilot",
+      "cursor": "Cursor",
+      "grok": "Grok",
+      "mistralai": "Mistral AI",
+      "deepseek": "DeepSeek",
+      "perplexity": "Perplexity",
+      "none": "None"
+    },
+    "local_model": "If you used a local AI model, which one did you use?",
+    "local_model_options": {
+      "recommended-light": "Recommended Lightweight Model",
+      "recommended-heavy": "Recommended Heavyweight Model",
+      "none": "None"
+    },
+    "tool_use":"Tool Usage",
+    "easy_to_use": "The tool was easy to use.",
+    "helped_create_tests": "The tool helped me create automated tests.",
+    "tests_required_few_changes": "The generated tests met my needs with few modifications.",
+    "write_more_tests": "After using the tool, I started writing more automated tests.",
+    "encouraged_pipeline": "The tool encouraged me to incorporate automated testing into my development pipeline.",
+    "saved_time": "The tool saved development time.",
+    "helped_find_bugs": "The generated tests helped identify defects.",
+    "continue_using": "I intend to continue using the tool.",
+    "recommend_tool": "I would recommend the tool to other developers.",
+    "tool_feedback":"Tool Feedback",
+    "software_engineering_areas": "In which Software Engineering areas would you like the tool to provide support?",
+    "software_engineering_areas_options": {
+      "cicd": "CI/CD",
+      "uml": "UML Modeling",
+      "architecture": "Software Architecture",
+      "coverage": "Test Coverage Visualization",
+      "documentation": "Documentation Generation",
+      "integration": "Integration Testing",
+      "performance": "Performance Testing",
+      "code_review": "Code Review"
+    },
+
+    "why_useful": "Why would these features be useful?",
+    "greatest_benefit": "What was the greatest benefit provided by the tool?",
+    "greatest_problem": "What was the biggest problem you encountered while using the tool?",
+    "missing_feature": "Was there any important feature that you felt was missing?",
+    "what_would_change": "What would you change in the tool?",
+    "enviar": "Submit"
+  }
+}

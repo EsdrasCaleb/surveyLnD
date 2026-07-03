@@ -1,0 +1,119 @@
+{
+  "consent": {
+    "title": "Registro de Consentimiento Libre e Informado (RCLE)\"",
+    "helper": "Si algún término no está claro, intente leer en otro idioma.",
+    "paragraphs": [
+      "Usted está invitado(a) a participar en el estudio de investigación académica <strong>“Evaluation of the Impact of a Language Model-Based Tool for Automated Test Generation in Unity Projects”</strong>, realizado por Esdras Caleb Oliveira Silva (investigador principal), Lyrene Fernandes da Silva (supervisora) y Roberta de Souza Coelho (co-supervisora), de la Universidad Federal de Rio Grande do Norte (UFRN).",
+      "Este estudio está dirigido a desarrolladores de juegos, ingenieros de software, estudiantes y desarrolladores independientes de 18 años o más que utilicen el motor Unity. El objetivo es evaluar cómo la herramienta <strong>\"Laundry & Dishes\"</strong> afecta la adopción de pruebas automatizadas y la experiencia de los desarrolladores.",
+      "Si acepta participar, responderá un cuestionario en línea con 22 preguntas sobre su perfil profesional, prácticas de pruebas y experiencia utilizando la herramienta. El tiempo estimado de respuesta es de aproximadamente 10 minutos.",
+      "<strong>Riesgos y Confidencialidad:</strong><br />Los riesgos son mínimos y están principalmente relacionados con la fatiga al responder el cuestionario. Todas las respuestas se recopilan de forma anónima. No se recopila código fuente, nombres de proyectos ni prompts de modelos de lenguaje (LLM).",
+      "<strong>Derecho a Retirarse:</strong><br />De acuerdo con la LGPD y el GDPR, la participación es voluntaria y puede retirarse en cualquier momento sin penalización. También puede solicitar la eliminación de sus respuestas contactando al equipo de investigación.",
+      "En caso de dudas, contacte:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Correo electrónico: <a href=\"mailto:acheicaleb@gmail.com\">acheicaleb@gmail.com</a><br />Teléfono: +55 (84) 99688-8803",
+      "La supervisión ética está a cargo del Comité de Ética en Investigación de la Universidad Federal de Rio Grande do Norte (CEP Central/UFRN):<br />Correo electrónico: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
+      "También puede contactar a la Comisión Nacional de Ética en Investigación (CONEP/Brasil):<br />Teléfono: +55 (61) 3315-5877<br />Correo electrónico: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
+    ],
+    "agree": "Estoy de acuerdo y deseo participar en la investigación",
+    "decline": "Rechazo participar"
+  },
+  "switcher": {
+    "share_browser_language": "Compartir idioma del navegador"
+  },
+  "thankyou": {
+    "title": "Gracias por su tiempo",
+    "text": "La encuesta ha finalizado. Agradecemos su atención.",
+    "removal": "Si desea eliminar sus datos, contáctenos en acheicaleb@gmail.com y envíe su ID único: {{uid}}.",
+    "newSurvey": "Responder la encuesta",
+    "change": "Cambiar respuestas"
+  },
+  "survey": {
+    "common": {
+      "sim": "Sí",
+      "nao": "No",
+      "required_option": "Seleccione una opción.",
+      "required_one_option": "Seleccione al menos una opción.",
+      "required_describe": "Por favor, especifique.",
+      "outra": "Otra",
+      "outro": "Otro",
+      "outra_describe": "¿Cuál?",
+      "outro_describe": "¿Cuál?",
+      "likert": {
+        "1": "Totalmente en desacuerdo",
+        "2": "En desacuerdo",
+        "3": "Ni de acuerdo ni en desacuerdo",
+        "4": "De acuerdo",
+        "5": "Totalmente de acuerdo"
+      }
+    },
+    "final_remarks": "Comentarios Finales",
+    "any_comment": "¿Le gustaría dejar algún comentario adicional?",
+    "email": "Si desea participar en futuras investigaciones relacionadas con este proyecto, indique su dirección de correo electrónico:",
+    "email_contato": "Proporcione su correo electrónico si desea ser contactado para futuras investigaciones relacionadas con este proyecto.",
+    "required_fields_missing": "Por favor, responda las siguientes preguntas:",
+    "unity_experience": "Tiempo de experiencia con Unity",
+    "install_id": "ID de instalación (Unity: Edit → Project Settings → Laundry & Dishes → Installation ID)",
+    "project_used": "¿En qué tipos de proyectos utilizó la herramienta?",
+    "project_types": {
+      "academic": "Proyecto Académico",
+      "hobby": "Proyecto Personal (Hobby)",
+      "open-source": "Proyecto de Código Abierto",
+      "commercial-small": "Proyecto Comercial Pequeño",
+      "commercial-medium": "Proyecto Comercial Mediano",
+      "commercial-large": "Proyecto Comercial Grande"
+    },
+    "automated_testing_experience": "Antes de este estudio, ¿cuál era su experiencia con las pruebas automatizadas?",
+    "automated_testing_experience_options": {
+      "never": "Nunca las utilizaba",
+      "rarely": "Rara vez las utilizaba",
+      "sometimes": "A veces las utilizaba",
+      "frequently": "Las utilizaba con frecuencia",
+      "always": "Siempre las utilizaba"
+    },
+    "cloud_models": "¿Qué modelos de IA en la nube utilizó junto con la herramienta?",
+    "cloud_model_options": {
+      "openai": "OpenAI",
+      "gemini": "Gemini",
+      "claude": "Claude",
+      "github-copilot": "GitHub Copilot",
+      "cursor": "Cursor",
+      "grok": "Grok",
+      "mistralai": "Mistral AI",
+      "deepseek": "DeepSeek",
+      "perplexity": "Perplexity",
+      "none": "Ninguno"
+    },
+    "local_model": "Si utilizó un modelo de IA local, ¿cuál utilizó?",
+    "local_model_options": {
+      "recommended-light": "Modelo ligero recomendado",
+      "recommended-heavy": "Modelo pesado recomendado",
+      "none": "Ninguno"
+    },
+    "tool_use": "Uso de la Herramienta",
+    "easy_to_use": "La herramienta fue fácil de usar.",
+    "helped_create_tests": "La herramienta me ayudó a crear pruebas automatizadas.",
+    "tests_required_few_changes": "Las pruebas generadas satisficieron mis necesidades con pocas modificaciones.",
+    "write_more_tests": "Después de utilizar la herramienta, comencé a escribir más pruebas automatizadas.",
+    "encouraged_pipeline": "La herramienta fomentó la incorporación de pruebas automatizadas en mi flujo de desarrollo.",
+    "saved_time": "La herramienta me ahorró tiempo durante el desarrollo.",
+    "helped_find_bugs": "Las pruebas generadas por la herramienta ayudaron a identificar defectos.",
+    "continue_using": "Tengo la intención de seguir utilizando la herramienta.",
+    "recommend_tool": "Recomendaría la herramienta a otros desarrolladores.",
+    "tool_feedback": "Evaluación de la Herramienta",
+    "software_engineering_areas": "¿En qué áreas de la Ingeniería de Software le gustaría que la herramienta también brindara soporte?",
+    "software_engineering_areas_options": {
+      "cicd": "CI/CD",
+      "uml": "Modelado UML",
+      "architecture": "Arquitectura de Software",
+      "coverage": "Visualización de Cobertura de Pruebas",
+      "documentation": "Generación de Documentación",
+      "integration": "Pruebas de Integración",
+      "performance": "Pruebas de Rendimiento",
+      "code_review": "Revisión de Código"
+    },
+    "why_useful": "¿Por qué serían útiles estas funcionalidades?",
+    "greatest_benefit": "¿Cuál fue el mayor beneficio proporcionado por la herramienta?",
+    "greatest_problem": "¿Cuál fue el mayor problema que encontró durante el uso de la herramienta?",
+    "missing_feature": "¿Hubo alguna funcionalidad importante que sintió que faltaba?",
+    "what_would_change": "¿Qué cambiaría de la herramienta?",
+    "enviar": "Enviar"
+  }
+}
