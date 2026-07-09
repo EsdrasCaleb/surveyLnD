@@ -1,26 +1,17 @@
 import React, {useEffect} from "react";
-import {Select, Checkbox, Flex, Typography} from "antd";
+import { Select, Checkbox, Flex, Typography, Alert } from "antd";
 import {useTranslation} from "react-i18next";
 
 const { Option } = Select;
 
-const LanguageSwitcher = ({ i18n, data, setData }) => {
+const LanguageSwitcher = ({ i18n, data, setData, showShareBrowser = true }) => {
     const { t } = useTranslation();
-
     const stable = ["en", "es","pt-BR"];
-    const experimental = {
-        /*fr: "Français (auto-traduit)",
-        it: "Italiano (tradotto automaticamente)",
-        zh: "普通话（自动翻译）",
-        ja: "日本語（自動翻訳）",
-        ko: "한국어 (자동 번역)"*/
-    };
 
     const candidates = i18n.languages || [];
 
     const safeLang =
         candidates.find(l => stable.includes(l)) ||
-        candidates.find(l => Object.keys(experimental).includes(l)) ||
         "en";
 
     useEffect(() => {
@@ -46,28 +37,39 @@ const LanguageSwitcher = ({ i18n, data, setData }) => {
     };
 
     return (
-        <Flex className="flex" gap="middle" justify="center" orientation="horizontal">
-            <Typography.Text strong={5} > {t("studyname")}</Typography.Text>
-            <Select
-                defaultValue={safeLang}
-                style={{ width: 120 }}
-                onChange={handleLanguageChange}
-            >
-                <Option value="en">English</Option>
-                <Option value="pt-BR">Português</Option>
-                <Option value="es">Español</Option>
-
-                {experimental[safeLang] && (
-                    <Option value={safeLang}>{experimental[safeLang]}</Option>
+        <>
+            <Alert
+                type="warning"
+                showIcon
+                message={t("temp_message")}
+                style={{
+                    marginBottom: 12,
+                    maxWidth: 900,
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                }}
+            />
+            <Flex className="flex" gap="middle" justify="center" orientation="horizontal">
+                <Typography.Text strong={5} > {t("studyname")}</Typography.Text>
+                <Select
+                    defaultValue={safeLang}
+                    style={{ width: 120 }}
+                    onChange={handleLanguageChange}
+                >
+                    <Option value="en">English</Option>
+                    <Option value="pt-BR">Português</Option>
+                    <Option value="es">Español</Option>
+                </Select>
+                {showShareBrowser && (
+                    <Checkbox
+                        checked={data?.shareBrowser || false}
+                        onChange={handleCheckboxChange("shareBrowser")}
+                    >
+                        {t("switcher.share_browser_language")}
+                    </Checkbox>
                 )}
-            </Select>
-            <Checkbox
-                checked={data?.shareBrowser || false}
-                onChange={handleCheckboxChange("shareBrowser")}
-            >
-                {t("switcher.share_browser_language")}
-            </Checkbox>
-        </Flex>
+            </Flex>
+        </>
     );
 };
 

@@ -16,9 +16,9 @@ const RequiredFieldsSummary = ({ missingFields = [] }) => {
                 <ul style={{ margin: 0, paddingLeft: 20 }}>
                     {missingFields.map((fieldName, idx) => {
                         let label;
-                        if (fieldName.endsWith("_outro")) {
-                            const baseName = fieldName.replace(/_outro$/, "");
-                            label = `${t("survey." + baseName)} - ${t("survey.common.outro")}`;
+                        if (fieldName.endsWith("_other")) {
+                            const baseName = fieldName.replace(/_other$/, "");
+                            label = `${t("survey." + baseName)} - ${t("survey.common.other")}`;
                         } else {
                             label = t("survey." + fieldName);
                         }

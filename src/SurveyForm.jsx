@@ -1,6 +1,6 @@
 import React, { useState,useEffect,useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Grid, Typography, Card, FloatButton, Popconfirm, Image, Form, Input, Button, Checkbox, Space, Select, Radio, InputNumber } from 'antd';
+import { Grid, Typography, Card, FloatButton, Popconfirm, Image, Form, Input, Button, Checkbox, Space, Radio, InputNumber } from 'antd';
 import installIdImg from './assets/install-id-location.png';
 import { CloseOutlined } from '@ant-design/icons';
 import RequiredFieldsSummary from "./RequiredFieldsSummary.jsx";
@@ -16,6 +16,7 @@ const SurveyForm = ({ data, setData, uid, onAnswer }) => {
     const [loading, setLoading] = useState(false);
     const [requiredErrors, setRequiredErrors] = useState([]);
 
+    console.log(uid);
 
     useEffect(() => {
         if (!isEqual(currentScreen, screens)) {
@@ -42,8 +43,9 @@ const SurveyForm = ({ data, setData, uid, onAnswer }) => {
 
         const body_request = JSON.stringify(filteredValues);
 
-        const url = 'https://script.google.com/macros/s/AKfycbw1yksFMleKJR0GTe7LiHr7b3hHOAtY-LRaEi99h4AobNKBEvu-Q18vjRYdgdYyHK_6/exec';
-
+        const url = 'https://script.google.com/macros/s/AKfycbx9ACJYu6-xBE1rOHlGLJYPo11yiD58SClFfvGHA_tWQxjmm0NXZoFjcqm9Ej1x75ne/exec';
+        //DEBUG ETICA
+        return;
         try {
             fetch(url, {
                 method: 'POST',
@@ -160,35 +162,31 @@ const SurveyForm = ({ data, setData, uid, onAnswer }) => {
                     label={(index++) + "-" + t('survey.automated_testing_experience')}
                     rules={[{ required: true, message: t('survey.common.required_option') }]}
                 >
-                    <Select
-                        placeholder={t('survey.common.select_option')}
-                        options={[
-                            {
-                                value: "never",
-                                label: t('survey.automated_testing_experience_options.never')
-                            },
-                            {
-                                value: "rarely",
-                                label: t('survey.automated_testing_experience_options.rarely')
-                            },
-                            {
-                                value: "sometimes",
-                                label: t('survey.automated_testing_experience_options.sometimes')
-                            },
-                            {
-                                value: "frequently",
-                                label: t('survey.automated_testing_experience_options.frequently')
-                            },
-                            {
-                                value: "always",
-                                label: t('survey.automated_testing_experience_options.always')
-                            },
-                            {
-                                value: "other",
-                                label: t('survey.common.other')
-                            }
-                        ]}
-                    />
+                    <Radio.Group className="flex-column">
+                        <Radio value="never">
+                            {t('survey.automated_testing_experience_options.never')}
+                        </Radio>
+
+                        <Radio value="rarely">
+                            {t('survey.automated_testing_experience_options.rarely')}
+                        </Radio>
+
+                        <Radio value="sometimes">
+                            {t('survey.automated_testing_experience_options.sometimes')}
+                        </Radio>
+
+                        <Radio value="frequently">
+                            {t('survey.automated_testing_experience_options.frequently')}
+                        </Radio>
+
+                        <Radio value="always">
+                            {t('survey.automated_testing_experience_options.always')}
+                        </Radio>
+
+                        <Radio value="other">
+                            {t('survey.common.other')}
+                        </Radio>
+                    </Radio.Group>
                 </Form.Item>
 
                 {data['automated_testing_experience'] === 'other' && (
@@ -444,7 +442,6 @@ const SurveyForm = ({ data, setData, uid, onAnswer }) => {
                 <Form.Item
                     name="software_engineering_areas"
                     label={(index++) + "-" + t("survey.software_engineering_areas")}
-                    rules={[{ required: true, message: t("survey.common.required_option") }]}
                 >
                     <Checkbox.Group className="flex-column">
                         <Checkbox value="cicd">{t("survey.software_engineering_areas_options.cicd")}</Checkbox>

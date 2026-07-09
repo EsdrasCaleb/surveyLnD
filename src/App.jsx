@@ -8,8 +8,10 @@ import DeclinedScreen from './DeclinedScreen.jsx';
 import ConcludedScreen from './ConcludedScreen.jsx';
 import LanguageSwitcher from './LanguageSwitcher.jsx';
 import UsePageTimer from "./UsePageTimer.jsx";
+import { Routes, Route } from "react-router-dom";
+import RSCPluginPage from "./RSCPluginPage";
 
-const STORAGE_KEY = 'survey_data';
+const STORAGE_KEY = 'lnd_survey_data';
 
 const initialState = {
     status: null,
@@ -20,10 +22,11 @@ const initialState = {
 function surveyReducer(state, action) {
     switch (action.type) {
         case 'ACCEPT':
-            if(!state.uid){
-                state.uid = uuidv4()
-            }
-            return { ...state, status: 'accepted' };
+            return {
+                ...state,
+                uid: state.uid ?? uuidv4(),
+                status: 'accepted'
+            };
         case 'DECLINE':
             return { ...state, status: 'declined' };
         case 'CONCLUDE':
@@ -35,9 +38,19 @@ function surveyReducer(state, action) {
         case 'RESET':
             return { ...state,status:null };
         case 'LOAD_FROM_STORAGE':
-            if (action.payload.status =='accepted' || action.payload.status =='declined')
+            if (action.payload.status =='accepted')
+                action.payload.status = "preacceptance"
+            if (action.payload.status =='declined')
                 action.payload.status = null
-            return { ...state,uid:action.payload.uid,data:{...state.data,...action.payload.data} };
+            return {
+                ...state,
+                status: action.payload.status ?? null,
+                uid: action.payload.uid ?? state.uid,
+                data: {
+                    ...state.data,
+                    ...action.payload.data
+                }
+            };
         default:
             throw new Error(`Ação desconhecida: ${action.type}`);
     }
@@ -64,12 +77,6 @@ export default function App() {
     }, [state]);
 
     const renderContent = () => {
-        /*
-        return <ConcludedScreen
-            uid={state.uid}
-            onChangeAnswers={() => dispatch({ type: 'CHANGE_ANSWERS' })}
-        />
-        */
         switch (state.status) {
             case 'accepted':
                 return (
@@ -97,6 +104,7 @@ export default function App() {
                     <Acceptance
                         onAccept={() => dispatch({ type: 'ACCEPT' })}
                         onDecline={() => dispatch({ type: 'DECLINE' })}
+                        previusaccept={state.status==="preacceptance"}
                     />
                 );
         }
@@ -120,27 +128,69 @@ export default function App() {
         maxWidth: '100%',
         margin: '0 auto',
         padding: '24px',
-        paddingTop: '80px',
+        paddingTop: '130px',
         minHeight: '95vh',
     };
 
     return (
-        <>
-            <div style={fixedTopBar}>
-                <LanguageSwitcher
-                    i18n={i18n}
-                    data={state.data}
-                    setData={(newData) => dispatch({ type: 'SET_DATA', payload: newData })}
-                />
-            </div>
+        <Routes>
+            <Route
+                path="/surveyLnD"
+                element={
+                    <>
+                        <div style={fixedTopBar}>
+                            <LanguageSwitcher
+                                i18n={i18n}
+                                data={state.data}
+                                setData={(newData) =>
+                                    dispatch({
+                                        type: "SET_DATA",
+                                        payload: newData,
+                                    })
+                                }
+                            />
+                        </div>
 
-            <div style={mainContainer}>
-                {renderContent()}
-            </div>
-            <UsePageTimer
-                data={state.data}
-                setData={(newData) => dispatch({ type: 'SET_DATA', payload: newData })}
-          />
-        </>
+                        <div style={mainContainer}>
+                            {renderContent()}
+                        </div>
+
+                        <UsePageTimer
+                            data={state.data}
+                            setData={(newData) =>
+                                dispatch({
+                                    type: "SET_DATA",
+                                    payload: newData,
+                                })
+                            }
+                        />
+                    </>
+                }
+            />
+
+            <Route
+                path="/surveyLnD/rsc-plugin"
+                element={
+                <>
+                    <div style={fixedTopBar}>
+                        <LanguageSwitcher
+                            i18n={i18n}
+                            data={state.data}
+                            setData={(newData) =>
+                                dispatch({
+                                    type: "SET_DATA",
+                                    payload: newData,
+                                })
+                            }
+                        />
+                    </div>
+                    <div style={mainContainer}>
+                        <RSCPluginPage />
+                    </div>
+                </>
+            }
+            />
+
+        </Routes>
     );
 }

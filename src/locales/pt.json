@@ -1,19 +1,38 @@
 {
-  "studyname": "Evaluación del impacto de una herramienta basada en modelos de lenguaje para la generación automatizada de pruebas en proyectos de Unity",
+  "temp_message": "Aviso: este site está disponível exclusivamente para conferência e avaliação pelo Comitê de Ética em Pesquisa da UFRN. Nenhuma resposta enviada por meio desta página será armazenada ou utilizada para fins de pesquisa.",
+  "rsc-plugin":[
+      "Você está convidado a participar do estudo de pesquisa acadêmica <strong>“Evaluation of the Impact of a Language Model-Based Tool for Automated Test Generation in Unity Projects”</strong>, conduzido por Esdras Caleb Oliveira Silva (pesquisador principal), Lyrene Fernandes da Silva (orientadora) e Roberta de Souza Coelho (coorientadora), da Universidade Federal do Rio Grande do Norte (UFRN).",
+      "Este estudo destina-se a desenvolvedores de jogos, engenheiros de software, estudantes e desenvolvedores independentes (indie) com 18 anos ou mais que utilizam a Unity Engine. Seu objetivo é avaliar como a ferramenta <strong>\"Laundry & Dishes\"</strong> influencia a adoção de testes automatizados e a experiência do desenvolvedor, contribuindo para o aprimoramento de ferramentas de testes assistidas por Inteligência Artificial.",
+      "Caso concorde em participar, o plugin poderá compartilhar dados telemétricos operacionais gerados durante sua utilização. O compartilhamento da telemetria permanece <strong>desabilitado por padrão</strong> e somente ocorrerá após seu consentimento explícito. Os registros de eventos são armazenados localmente em seu computador e permanecem sob seu controle exclusivo.",
+      "<strong>Informações que poderão ser compartilhadas:</strong><br />ID de Instalação aleatório; versão da Unity; versão do Laundry & Dishes; funcionalidades utilizadas; modo de execução (modelo de linguagem local ou em nuvem); resultado da geração ou execução de testes; identificador anônimo do elemento alvo; data e horário das operações.",
+      "<strong>Informações que nunca são coletadas:</strong><br />Código-fonte; nomes de projetos; nomes de arquivos ou recursos; caminhos de arquivos; chaves de API; prompts enviados aos modelos de linguagem; senhas; arquivos pessoais; ou quaisquer informações pessoais capazes de identificar diretamente o participante.",
+    "<strong>Riscos e Confidencialidade:</strong><br />Os riscos são mínimos e estão relacionados principalmente à transmissão, pela Internet, de dados telemétricos operacionais anonimizados e ao eventual aumento temporário do consumo de processamento, memória ou armazenamento durante a execução local de modelos de linguagem. O ID de Instalação é um identificador aleatório gerado exclusivamente para distinguir uma instalação da ferramenta, não permitindo identificar seu usuário. A equipe de pesquisa não possui acesso aos registros armazenados localmente, exceto quando o próprio participante autorizar seu compartilhamento. Os dados compartilhados serão armazenados em ambiente institucional seguro, com acesso restrito aos pesquisadores responsáveis, pelo período de cinco anos após o término da pesquisa. Os resultados serão divulgados apenas de forma agregada ou anonimizada, sem possibilitar a identificação dos participantes.",
+      "<strong>Direitos do Participante:</strong><br />A participação é voluntária. Você poderá ativar ou desativar o compartilhamento da telemetria a qualquer momento, sem qualquer prejuízo. Ao desativá-lo, nenhum novo dado será enviado aos pesquisadores. Também poderá solicitar a exclusão dos dados anteriormente compartilhados associados ao seu ID de Instalação. Os registros armazenados localmente permanecem sob seu controle exclusivo e poderão ser removidos diretamente por você a qualquer momento.",
+      "<strong>Benefícios:</strong><br />A participação não oferece benefício direto ao participante. Espera-se que os resultados desta pesquisa contribuam para o desenvolvimento de ferramentas de geração automatizada de testes mais eficazes para desenvolvedores que utilizam a Unity Engine.",
+      "Esta pesquisa não implica custos nem remuneração aos participantes. Caso ocorra algum dano comprovadamente decorrente da participação nesta pesquisa, serão assegurados os direitos previstos na legislação brasileira vigente.",
+      "Em caso de dúvidas, entre em contato com:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />E-mail: <a href=\"mailto:esdrascaleb@ufrn.br\">esdrascaleb@ufrn.br</a><br />Telefone: +55 (84) 99688-8803",
+      "A supervisão ética é realizada pelo Comitê de Ética em Pesquisa da Universidade Federal do Rio Grande do Norte (CEP Central/UFRN):<br />E-mail: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
+      "Registro da pesquisa na Plataforma Brasil (CAAE): <strong>XXXXXXXXXXXX.XX.XXXX.X.XXXX</strong>",
+      "Você também pode entrar em contato com a Comissão Nacional de Ética em Pesquisa (CONEP/Brasil):<br />Telefone: +55 (61) 3315-5877<br />E-mail: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
+  ],
+  "continue": "Continuar",
+  "download_rsc": "Baixar Registro de Consentimento",
   "consent": {
     "title": "Registro de Consentimento Livre e Esclarecido (RCLE)",
-    "helper": "If any term is unclear, try reading in another language.",
+    "helper": "Se algum termo não estiver claro, tente ler em outro idioma.",
     "paragraphs": [
-      "Você está convidado a participar do estudo de pesquisa acadêmica <strong>“Avaliação do Impacto de uma Ferramenta Baseada em Modelos de Linguagem para Geração Automatizada de Testes em Projetos Unity”</strong>, conduzido por Esdras Caleb Oliveira Silva (pesquisador principal), Lyrene Fernandes da Silva (orientadora) e Roberta de Souza Coelho (coorientadora), da Universidade Federal do Rio Grande do Norte (UFRN).",
-      "Este estudo destina-se a desenvolvedores de jogos, engenheiros de software, estudantes e desenvolvedores independentes (indie) com 18 anos ou mais que utilizam a Unity Engine. O objetivo é avaliar como a ferramenta <strong>\"Laundry & Dishes\"</strong> afeta a adoção de testes automatizados e a experiência do desenvolvedor.",
-      "Caso aceite participar, você responderá a um questionário online com 22 perguntas sobre seu perfil profissional, práticas de teste e experiência com o uso da ferramenta. O tempo estimado para conclusão é de aproximadamente 10 minutos.",
-      "<strong>Riscos e Confidencialidade:</strong><br />Os riscos são mínimos e estão relacionados principalmente ao cansaço ao responder ao questionário. Todas as respostas são coletadas de forma anônima. Não são coletados códigos-fonte, nomes de projetos ou prompts de LLM.",
-      "<strong>Direito de Desistência:</strong><br />Em conformidade com a LGPD e o GDPR, a participação é voluntária e você pode desistir a qualquer momento, sem qualquer penalidade. Você também pode solicitar a exclusão de suas respostas entrando em contato com a equipe de pesquisa.",
-      "Em caso de dúvidas, entre em contato com:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />E-mail: <a href=\"mailto:acheicaleb@gmail.com\">acheicaleb@gmail.com</a><br />Telefone: +55 (84) 99688-8803",
+      "Você está convidado a participar do estudo de pesquisa acadêmica <strong>“Evaluation of the Impact of a Language Model-Based Tool for Automated Test Generation in Unity Projects”</strong>, conduzido por Esdras Caleb Oliveira Silva (pesquisador principal), Lyrene Fernandes da Silva (orientadora) e Roberta de Souza Coelho (coorientadora), da Universidade Federal do Rio Grande do Norte (UFRN).",
+      "Este estudo destina-se a desenvolvedores de jogos, engenheiros de software, estudantes e desenvolvedores independentes (indie) com 18 anos ou mais que utilizam a Unity Engine. Seu objetivo é avaliar como a ferramenta <strong>\"Laundry & Dishes\"</strong> influencia a adoção de testes automatizados e a experiência do desenvolvedor. Espera-se que os resultados contribuam para o desenvolvimento de ferramentas que facilitem a automação de testes em projetos desenvolvidos com a Unity Engine.",
+      "Caso aceite participar, você responderá a um questionário eletrônico composto por 23 perguntas sobre seu perfil profissional, práticas de teste e experiência com a ferramenta. O tempo estimado para conclusão é de aproximadamente 10 minutos. Opcionalmente, você poderá informar o ID de Instalação da ferramenta para permitir a correlação das respostas do questionário com os dados telemétricos compartilhados voluntariamente, bem como fornecer um endereço de e-mail caso deseje ser contatado para futuras pesquisas relacionadas a este projeto.",
+      "<strong>Riscos e Confidencialidade:</strong><br />Os riscos são mínimos e estão relacionados principalmente ao eventual cansaço durante o preenchimento do questionário. O fornecimento do endereço de e-mail é opcional e, quando informado, será armazenado em uma base de dados separada das respostas do questionário, sem vínculo direto entre essas informações, impossibilitando sua associação às respostas fornecidas. O e-mail será utilizado exclusivamente para contato em futuras pesquisas relacionadas a este projeto. O ID de Instalação, quando informado, consiste apenas em um identificador aleatório da instalação da ferramenta e não permite identificar o participante. Os dados da pesquisa serão armazenados em ambiente seguro, com acesso restrito aos pesquisadores responsáveis, pelo período de cinco anos após o término da pesquisa. Os resultados serão divulgados apenas de forma agregada ou anonimizada, sem possibilitar a identificação dos participantes.",
+      "<strong>Direito de Desistência:</strong><br />A participação é voluntária e você poderá retirar seu consentimento e desistir da pesquisa a qualquer momento, sem qualquer prejuízo. Também poderá solicitar a exclusão dos dados compartilhados entrando em contato com a equipe de pesquisa.",
+      "Esta pesquisa não implica custos ou remuneração aos participantes. Caso ocorra algum dano comprovadamente decorrente da participação na pesquisa, serão assegurados os direitos previstos na legislação vigente.",
+      "Em caso de dúvidas, entre em contato com:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />E-mail: <a href=\"mailto:esdrascaleb@ufrn.br\">esdrascaleb@ufrn.br</a><br />Telefone: +55 (84) 99688-8803",
       "A supervisão ética é realizada pelo Comitê de Ética em Pesquisa da Universidade Federal do Rio Grande do Norte (CEP Central/UFRN):<br />E-mail: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
+      "Registro da pesquisa na Plataforma Brasil (CAAE): <strong>XXXXXXXXXXXX.XX.XXXX.X.XXXX</strong>",
       "Você também pode entrar em contato com a Comissão Nacional de Ética em Pesquisa (CONEP/Brasil):<br />Telefone: +55 (61) 3315-5877<br />E-mail: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
     ],
-    "agree": "Concordo e desejo participar da pesquisa",
+    "agree": "Declaro que li e concordo voluntariamente em participar da pesquisa",
     "decline": "Eu Recuso"
   },
   "switcher": {
@@ -22,9 +41,9 @@
   "thankyou": {
     "title": "Obrigado pelo seu tempo",
     "text": "A pesquisa foi ecerrada. Agradecemos sua atenção.",
-    "removal": "Se quiser remover seus dados, entre em contato com acheicaleb@gmail.com e envie o seu ID único: {{uid}}.",
+    "removal": "Se quiser remover seus dados, entre em contato com esdrascaleb@ufrn.br e envie o seu ID único: {{uid}}.",
     "newSurvey": "Responder a pesquisa",
-    "change": "Alterar Respostas"
+    "change": "Revisar ou alterar minhas respostas"
   },
   "survey": {
     "common": {
@@ -33,10 +52,8 @@
       "required_option": "Selecione uma opção.",
       "required_one_option": "Selecione pelo menos uma opção.",
       "required_describe": "Por favor, especifique.",
-      "outra": "Outra",
-      "outro": "Outro",
-      "outra_describe": "Qual?",
-      "outro_describe": "Qual?",
+      "other": "Outro",
+      "other_describe": "Qual?",
       "likert": {
         "1": "Discordo totalmente",
         "2": "Discordo",
@@ -50,8 +67,8 @@
     "email": "Caso tenha interesse em participar de futuras pesquisas relacionadas a este projeto, informe seu endereço de e-mail:",
     "email_contato": "Informe seu e-mail caso deseje ser contatado para pesquisas futuras relacionadas a este projeto.",
     "required_fields_missing": "Por favor, responda às seguintes questões:",
-    "unity_experience": "Tempo de experiência com Unity",
-    "install_id": "ID de Instalação (Unity: Editar → Configurações do Projeto → Laundry & Dishes → Installation ID)",
+    "unity_experience": "Anos de experiência com Unity",
+    "install_id": "ID de Instalação (Unity: Editar → Configurações do Projeto → Laundry & Dishes → Installation ID). Caso tenha utilizado mais de uma instalação, informe todos os IDs separados por vírgula.",
     "profile": "Perfil",
     "project_used": "Em quais tipos de projetos você utilizou a ferramenta?",
     "project_types": {
@@ -83,7 +100,7 @@
       "perplexity": "Perplexity",
       "none": "Nenhum"
     },
-    "local_model": "Caso tenha utilizado um modelo local de IA, qual utilizou?",
+    "local_models": "Caso tenha utilizado um modelo local de IA, qual utilizou?",
     "local_model_options": {
       "recommended-light": "Modelo leve recomendado",
       "recommended-heavy": "Modelo pesado recomendado",
@@ -111,6 +128,8 @@
       "performance": "Testes de Desempenho",
       "code_review": "Revisão de Código"
     },
+    "bugs_found_count": "Aproximadamente quantos defeitos foram identificados?",
+    "bugs_found_example": "Você poderia descrever brevemente um exemplo?" ,
     "why_useful": "Por que essas funcionalidades seriam úteis?",
     "greatest_benefit": "Qual foi o maior benefício proporcionado pela ferramenta?",
     "greatest_problem": "Qual foi o maior problema encontrado durante a utilização?",
