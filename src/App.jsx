@@ -135,7 +135,7 @@ export default function App() {
     return (
         <Routes>
             <Route
-                path="/surveyLnD"
+                path="/"
                 element={
                     <>
                         <div style={fixedTopBar}>
@@ -169,7 +169,7 @@ export default function App() {
             />
 
             <Route
-                path="/surveyLnD/rsc-plugin"
+                path="/editor-rcle"
                 element={
                 <>
                     <div style={fixedTopBar}>
