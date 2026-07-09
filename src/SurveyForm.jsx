@@ -45,29 +45,29 @@ const SurveyForm = ({ data, setData, uid, onAnswer }) => {
 
         const url = 'https://script.google.com/macros/s/AKfycbx9ACJYu6-xBE1rOHlGLJYPo11yiD58SClFfvGHA_tWQxjmm0NXZoFjcqm9Ej1x75ne/exec';
         //DEBUG ETICA
-        return;
-        try {
-            fetch(url, {
-                method: 'POST',
-                mode: "no-cors",
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: body_request
-            }).then((response) => {
-                console.log(response);
-            })
-                .then((data) => {
-                    console.log("Success:", data)
+        //
+        // try {
+        //     fetch(url, {
+        //         method: 'POST',
+        //         mode: "no-cors",
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //         },
+        //         body: body_request
+        //     }).then((response) => {
+        //         console.log(response);
+        //     })
+        //         .then((data) => {
+        //             console.log("Success:", data)
                     onAnswer();
                         setLoading(false)
-                }
-                )
-                .catch((error) => {console.error("Error:", error);setLoading(false)});
-        } catch (error) {
-            console.error('Erro ao enviar dados:', error.message);
-            setLoading(false)
-        }
+                // }
+        //         )
+        //         .catch((error) => {console.error("Error:", error);setLoading(false)});
+        // } catch (error) {
+        //     console.error('Erro ao enviar dados:', error.message);
+        //     setLoading(false)
+        // }
     };
     let index = 1
 
