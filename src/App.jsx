@@ -176,6 +176,7 @@ export default function App() {
                         <LanguageSwitcher
                             i18n={i18n}
                             data={state.data}
+                            showShareBrowser={false}
                             setData={(newData) =>
                                 dispatch({
                                     type: "SET_DATA",
