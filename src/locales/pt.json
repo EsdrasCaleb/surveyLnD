@@ -10,7 +10,7 @@
       "<strong>Direitos do Participante:</strong><br />A participação é voluntária. Você poderá ativar ou desativar o compartilhamento da telemetria a qualquer momento, sem qualquer prejuízo. Ao desativá-lo, nenhum novo dado será enviado aos pesquisadores. Também poderá solicitar a exclusão dos dados anteriormente compartilhados associados ao seu ID de Instalação. Os registros armazenados localmente permanecem sob seu controle exclusivo e poderão ser removidos diretamente por você a qualquer momento.",
       "<strong>Benefícios:</strong><br />A participação não oferece benefício direto ao participante. Espera-se que os resultados desta pesquisa contribuam para o desenvolvimento de ferramentas de geração automatizada de testes mais eficazes para desenvolvedores que utilizam a Unity Engine.",
       "Esta pesquisa não implica custos nem remuneração aos participantes. Caso ocorra algum dano comprovadamente decorrente da participação nesta pesquisa, serão assegurados os direitos previstos na legislação brasileira vigente.",
-      "Em caso de dúvidas, entre em contato com:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />E-mail: <a href=\"mailto:esdrascaleb@ufrn.br\">esdrascaleb@ufrn.br</a><br />Telefone: +55 (84) 99688-8803",
+      "Em caso de dúvidas, entre em contato com:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />E-mail: <a href=\"mailto:esdras.caleb@ufrn.br\">esdras.caleb@ufrn.br</a><br />Telefone: +55 (84) 99688-8803",
       "A supervisão ética é realizada pelo Comitê de Ética em Pesquisa da Universidade Federal do Rio Grande do Norte (CEP Central/UFRN):<br />E-mail: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
       "Registro da pesquisa na Plataforma Brasil (CAAE): <strong>XXXXXXXXXXXX.XX.XXXX.X.XXXX</strong>",
       "Você também pode entrar em contato com a Comissão Nacional de Ética em Pesquisa (CONEP/Brasil):<br />Telefone: +55 (61) 3315-5877<br />E-mail: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
@@ -27,7 +27,7 @@
       "<strong>Riscos e Confidencialidade:</strong><br />Os riscos são mínimos e estão relacionados principalmente ao eventual cansaço durante o preenchimento do questionário. O fornecimento do endereço de e-mail é opcional e, quando informado, será armazenado em uma base de dados separada das respostas do questionário, sem vínculo direto entre essas informações, impossibilitando sua associação às respostas fornecidas. O e-mail será utilizado exclusivamente para contato em futuras pesquisas relacionadas a este projeto. O ID de Instalação, quando informado, consiste apenas em um identificador aleatório da instalação da ferramenta e não permite identificar o participante. Os dados da pesquisa serão armazenados em ambiente seguro, com acesso restrito aos pesquisadores responsáveis, pelo período de cinco anos após o término da pesquisa. Os resultados serão divulgados apenas de forma agregada ou anonimizada, sem possibilitar a identificação dos participantes.",
       "<strong>Direito de Desistência:</strong><br />A participação é voluntária e você poderá retirar seu consentimento e desistir da pesquisa a qualquer momento, sem qualquer prejuízo. Também poderá solicitar a exclusão dos dados compartilhados entrando em contato com a equipe de pesquisa.",
       "Esta pesquisa não implica custos ou remuneração aos participantes. Caso ocorra algum dano comprovadamente decorrente da participação na pesquisa, serão assegurados os direitos previstos na legislação vigente.",
-      "Em caso de dúvidas, entre em contato com:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />E-mail: <a href=\"mailto:esdrascaleb@ufrn.br\">esdrascaleb@ufrn.br</a><br />Telefone: +55 (84) 99688-8803",
+      "Em caso de dúvidas, entre em contato com:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />E-mail: <a href=\"mailto:esdras.caleb@ufrn.br\">esdras.caleb@ufrn.br</a><br />Telefone: +55 (84) 99688-8803",
       "A supervisão ética é realizada pelo Comitê de Ética em Pesquisa da Universidade Federal do Rio Grande do Norte (CEP Central/UFRN):<br />E-mail: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
       "Registro da pesquisa na Plataforma Brasil (CAAE): <strong>XXXXXXXXXXXX.XX.XXXX.X.XXXX</strong>",
       "Você também pode entrar em contato com a Comissão Nacional de Ética em Pesquisa (CONEP/Brasil):<br />Telefone: +55 (61) 3315-5877<br />E-mail: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
@@ -41,7 +41,7 @@
   "thankyou": {
     "title": "Obrigado pelo seu tempo",
     "text": "A pesquisa foi ecerrada. Agradecemos sua atenção.",
-    "removal": "Se quiser remover seus dados, entre em contato com esdrascaleb@ufrn.br e envie o seu ID único: {{uid}}.",
+    "removal": "Se quiser remover seus dados, entre em contato com esdras.caleb@ufrn.br e envie o seu ID único: {{uid}}.",
     "newSurvey": "Responder a pesquisa",
     "change": "Revisar ou alterar minhas respostas"
   },

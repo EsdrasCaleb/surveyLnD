@@ -11,7 +11,7 @@
     "<strong>Participant Rights:</strong><br />Participation is voluntary. You may enable or disable telemetry sharing at any time without any penalty. Once disabled, no new data will be transmitted to the researchers. You may also request the deletion of previously shared data associated with your Installation ID. Locally stored logs remain entirely under your control and may be deleted by you at any time.",
     "<strong>Benefits:</strong><br />There is no direct benefit to participants. The expected benefit is that the results of this study will contribute to the development of more effective automated test generation tools for developers using the Unity Engine.",
     "Participation in this research involves no costs or financial compensation. Should any damage be demonstrably caused by participation in this study, participants will be entitled to the rights provided under applicable Brazilian legislation.",
-    "If you have any questions, please contact:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Email: <a href=\"mailto:esdrascaleb@ufrn.br\">esdrascaleb@ufrn.br</a><br />Phone: +55 (84) 99688-8803",
+    "If you have any questions, please contact:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Email: <a href=\"mailto:esdras.caleb@ufrn.br\">esdras.caleb@ufrn.br</a><br />Phone: +55 (84) 99688-8803",
     "Ethical oversight is provided by the Research Ethics Committee of the Federal University of Rio Grande do Norte (CEP Central/UFRN):<br />Email: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
     "Research registration in Plataforma Brasil (CAAE): <strong>XXXXXXXXXXXX.XX.XXXX.X.XXXX</strong>",
     "You may also contact the Brazilian National Research Ethics Commission (CONEP):<br />Phone: +55 (61) 3315-5877<br />Email: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
@@ -28,7 +28,7 @@
       "<strong>Risks and Confidentiality:</strong><br />The risks are minimal and are mainly related to possible fatigue while completing the questionnaire. Providing your email address is optional. If provided, it will be stored in a database separate from the questionnaire responses, with no direct link between them, making it impossible to associate your identity with your responses. The email address will be used exclusively for contact regarding future studies related to this project. When provided, the Installation ID is merely a random identifier associated with the software installation and cannot be used to identify the participant. Research data will be stored in a secure environment with access restricted to the responsible researchers for five years after the completion of the study. Results will be published only in aggregated or anonymized form.",
       "<strong>Right to Withdraw:</strong><br />Participation is voluntary. You may withdraw your consent and discontinue participation at any time without any penalty. You may also request the deletion of your shared data by contacting the research team.",
       "Participation in this research involves no costs or financial compensation. Should any damage be demonstrably caused by participation in this study, participants will be entitled to the rights provided under applicable legislation.",
-      "If you have any questions, please contact:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Email: <a href=\"mailto:esdrascaleb@ufrn.br\">esdrascaleb@ufrn.br</a><br />Phone: +55 (84) 99688-8803",
+      "If you have any questions, please contact:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Email: <a href=\"mailto:esdras.caleb@ufrn.br\">esdras.caleb@ufrn.br</a><br />Phone: +55 (84) 99688-8803",
       "Ethical oversight is provided by the Research Ethics Committee of the Federal University of Rio Grande do Norte (CEP Central/UFRN):<br />Email: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
       "Research registration in Plataforma Brasil (CAAE): <strong>XXXXXXXXXXXX.XX.XXXX.X.XXXX</strong>",
       "You may also contact the Brazilian National Research Ethics Commission (CONEP):<br />Phone: +55 (61) 3315-5877<br />Email: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
@@ -43,7 +43,7 @@
   "thankyou": {
     "title": "Thank you for your time",
     "text": "The survey has ended. We appreciate your attention.",
-    "removal": "If you wish to remove your data, please contact esdrascaleb@ufrn.br and send your unique ID: {{uid}}.",
+    "removal": "If you wish to remove your data, please contact esdras.caleb@ufrn.br and send your unique ID: {{uid}}.",
     "newSurvey": "Take the survey",
     "change": "Review or change my responses"
   },

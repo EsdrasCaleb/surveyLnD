@@ -10,7 +10,7 @@
     "<strong>Derechos del Participante:</strong><br />La participación es voluntaria. Usted podrá activar o desactivar el intercambio de telemetría en cualquier momento sin ningún perjuicio. Al desactivarlo, no se enviarán nuevos datos a los investigadores. También podrá solicitar la eliminación de los datos previamente compartidos asociados a su ID de instalación. Los registros almacenados localmente permanecen exclusivamente bajo su control y podrán ser eliminados por usted en cualquier momento.",
     "<strong>Beneficios:</strong><br />La participación no ofrece beneficios directos al participante. Se espera que los resultados de esta investigación contribuyan al desarrollo de herramientas más eficaces para la generación automatizada de pruebas en proyectos desarrollados con Unity Engine.",
     "La participación en esta investigación no implica costos ni remuneración. En caso de que se produzca algún daño comprobablemente derivado de la participación en este estudio, se garantizarán los derechos previstos por la legislación brasileña vigente.",
-    "Si tiene alguna duda, póngase en contacto con:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Correo electrónico: <a href=\"mailto:esdrascaleb@ufrn.br\">esdrascaleb@ufrn.br</a><br />Teléfono: +55 (84) 99688-8803",
+    "Si tiene alguna duda, póngase en contacto con:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Correo electrónico: <a href=\"mailto:esdras.caleb@ufrn.br\">esdras.caleb@ufrn.br</a><br />Teléfono: +55 (84) 99688-8803",
     "La supervisión ética está a cargo del Comité de Ética en Investigación de la Universidad Federal de Rio Grande do Norte (CEP Central/UFRN):<br />Correo electrónico: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
     "Registro de la investigación en Plataforma Brasil (CAAE): <strong>XXXXXXXXXXXX.XX.XXXX.X.XXXX</strong>",
     "También puede ponerse en contacto con la Comisión Nacional de Ética en Investigación (CONEP/Brasil):<br />Teléfono: +55 (61) 3315-5877<br />Correo electrónico: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
@@ -27,7 +27,7 @@
       "<strong>Riesgos y Confidencialidad:</strong><br />Los riesgos son mínimos y están relacionados principalmente con el posible cansancio durante la cumplimentación del cuestionario. Proporcionar una dirección de correo electrónico es opcional. Si se proporciona, se almacenará en una base de datos separada de las respuestas del cuestionario, sin ningún vínculo directo entre ambas, imposibilitando asociar la identidad del participante con sus respuestas. El correo electrónico se utilizará exclusivamente para futuras investigaciones relacionadas con este proyecto. El ID de instalación, cuando se proporciona, es únicamente un identificador aleatorio de la instalación del software y no permite identificar al participante. Los datos de la investigación se almacenarán en un entorno seguro con acceso restringido a los investigadores responsables durante cinco años después de la finalización del estudio. Los resultados se divulgarán únicamente de forma agregada o anonimizada.",
       "<strong>Derecho a Retirarse:</strong><br />La participación es voluntaria. Usted podrá retirar su consentimiento y abandonar la investigación en cualquier momento sin ningún perjuicio. También podrá solicitar la eliminación de los datos compartidos poniéndose en contacto con el equipo de investigación.",
       "La participación en esta investigación no implica costos ni remuneración. En caso de que se produzca algún daño comprobablemente derivado de la participación en este estudio, se garantizarán los derechos previstos por la legislación vigente.",
-      "Si tiene alguna duda, póngase en contacto con:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Correo electrónico: <a href=\"mailto:esdrascaleb@ufrn.br\">esdrascaleb@ufrn.br</a><br />Teléfono: +55 (84) 99688-8803",
+      "Si tiene alguna duda, póngase en contacto con:<br /><strong>Esdras Caleb Oliveira Silva</strong> – SEDIS/UFRN<br />Correo electrónico: <a href=\"mailto:esdras.caleb@ufrn.br\">esdras.caleb@ufrn.br</a><br />Teléfono: +55 (84) 99688-8803",
       "La supervisión ética está a cargo del Comité de Ética en Investigación de la Universidad Federal de Rio Grande do Norte (CEP Central/UFRN):<br />Correo electrónico: <a href=\"mailto:cepufrn@propesq.ufrn.br\">cepufrn@propesq.ufrn.br</a><br />WhatsApp: +55 (84) 99193-6266",
       "Registro de la investigación en Plataforma Brasil (CAAE): <strong>XXXXXXXXXXXX.XX.XXXX.X.XXXX</strong>",
       "También puede ponerse en contacto con la Comisión Nacional de Ética en Investigación (CONEP/Brasil):<br />Teléfono: +55 (61) 3315-5877<br />Correo electrónico: <a href=\"mailto:conep@saude.gov.br\">conep@saude.gov.br</a>"
@@ -41,7 +41,7 @@
   "thankyou": {
     "title": "Gracias por su tiempo",
     "text": "La encuesta ha finalizado. Agradecemos su atención.",
-    "removal": "Si desea eliminar sus datos, contáctenos en esdrascaleb@ufrn.br y envíe su ID único: {{uid}}.",
+    "removal": "Si desea eliminar sus datos, contáctenos en esdras.caleb@ufrn.br y envíe su ID único: {{uid}}.",
     "newSurvey": "Responder la encuesta",
     "change": "Revisar o modificar mis respuestas"
   },
